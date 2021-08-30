@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=UA-144576888-1"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+
+            gtag("js", new Date());
+
+            gtag("config", "UA-144576888-1");
+        </script>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="Keywords"
+            content="Android developer, Java, kotlin, dart, Flutter"
+        />
+
+        <meta content="Chidi" property="og:site_name" />
+        <meta content="Chidi" property="og:title" />
+        <meta content="Chidi's portolio" property="og:description" />
+        <meta content="website" property="og:type" />
+        <meta content="http://timmycoder.github.io/" property="og:url" />
+        <meta
+            content="https://twitter.com/desmondngwuta/photo"
+            property="og:image"
+        />
+
+        <meta name="theme-color" content="#008000" />
+        <meta name="msapplication-navbutton-color" content="#6356E5" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="#6356E5" />
+        <title>Desmond Ngwuta Chidiebere</title>
+        <meta name="description" content="Software Engineer" />
+        <link rel="shortcut icon" type="image/png" href="assets/perfil.png" />
+
+        <!-- =====BOX ICONS===== -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+        <style type="text/css">
+            /*===== GOOGLE FONTS =====*/
+            @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+            /*===== Colores =====*/
+            :root {
+                --first-color: #008000;
+                --second-color: #0e2431;
+            }
+
+            /*===== Fuente y tipografia =====*/
+            :root {
+                --body-font: "Poppins", sans-serif;
+                --big-font-size: 2rem;
+                --h2-font-size: 1.25rem;
+                --normal-font-size: 0.938rem;
+            }
+            @media screen and (min-width: 768px) {
+                :root {
+                    --big-font-size: 3.5rem;
+                    --h2-font-size: 2rem;
+                    --normal-font-size: 1rem;
+                }
+            }
+            * {
+                margin: 0;
+                padding: 0;
+                font-weight: 300;
+            }
+
+            html {
+                scroll-behavior: smooth;
+            }
+
+            body {
+                height: 100vh;
+                display: flex;
+                font-size: 1.2em;
+                align-items: center;
+                font-family: var(--body-font);
+                font-size: var(--normal-font-size);
+                color: var(--second-color);
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                padding: 0 15px;
+            }
+
+            h1 {
+                margin: 20px 1rem 1.5rem 1rem;
+            }
+
+            h2,
+            p {
+                margin: 0;
+            }
+            ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+            a {
+                text-decoration: none;
+            }
+
+            p {
+                margin-bottom: 1.5rem;
+            }
+
+            ul {
+                display: inline-flex;
+                list-style: none;
+                text-decoration: underline;
+            }
+
+            li {
+                font-size: 0.8em;
+                padding-left: 1em;
+                padding-top: 1em;
+            }
+
+            a {
+                color: inherit;
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+            .home__social {
+                display: flex;
+                flex-direction: column;
+            }
+            .home__social-icon {
+                width: max-content;
+                margin-bottom: var(--mb-2);
+                font-size: 1.5rem;
+                color: var(--second-color);
+            }
+            .home__social-icon:hover {
+                color: var(--first-color);
+            }
+
+            .about__subtitle {
+                margin-bottom: var(--mb-2);
+            }
+
+            @media (min-width: 320px) and (max-width: 480px) {
+                ul {
+                    display: block;
+                }
+
+                li {
+                    padding: 0.3em;
+                }
+            }
+
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                padding: 12px 16px;
+                z-index: 1;
+            }
+
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+        </style>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=UA-122460991-1"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+
+            gtag("js", new Date());
+
+            gtag("config", "UA-122460991-1");
+        </script>
+    </head>
+
+    <body>
+        <img
+            src="assets/perfil_distort.png"
+            style="width: 400px"
+            alt="Desmond Ngwuta"
+        />
+        <h1>Desmond Ngwuta</h1>
+        <p class="description">Software Engineer</p>
+
+        <ul>
+            <li>
+                <a
+                    href="mailto:desmondchidi311@gmail.com"
+                    target="_blank"
+                    class="home__social-icon"
+                    ><i class="bx bx-mail-send"></i
+                ></a>
+            </li>
+            <li>
+                <a
+                    href="https://github.com/chydee"
+                    target="_blank"
+                    class="home__social-icon"
+                    ><i class="bx bxl-github"></i
+                ></a>
+            </li>
+            <li>
+                <a
+                    href="https://twitter.com/desmondngwuta"
+                    target="_blank"
+                    class="home__social-icon"
+                    ><i class="bx bxl-twitter"></i
+                ></a>
+            </li>
+            <li>
+                <a
+                    href="https://www.linkedin.com/in/chydeebere/"
+                    target="_blank"
+                    class="home__social-icon"
+                    ><i class="bx bxl-linkedin"></i
+                ></a>
+            </li>
+            <li>
+                <a
+                    href="https://stackoverflow.com/users/9693869/chidi?tab=profile"
+                    target="_blank"
+                    class="home__social-icon"
+                    ><i class="bx bxl-stack-overflow"></i
+                ></a>
+            </li>
+            <li>
+                <a
+                    href="https://play.google.com/store/apps/dev?id=9218835491619579139"
+                    target="_blank"
+                    class="home__social-icon"
+                    ><i class="bx bxl-play-store"></i
+                ></a>
+            </li>
+            <li>
+                <a
+                    href="https://codepen.io/Chydee"
+                    target="_blank"
+                    class="home__social-icon"
+                    ><i class="bx bxl-codepen"></i
+                ></a>
+            </li>
+            <li>
+                <a
+                    href="https://ngwuta.medium.com/"
+                    target="_blank"
+                    class="home__social-icon"
+                    ><i class='bx bxl-medium-square' ></i></a>
+            </li>
+        </ul>
+    </body>
+</html>
