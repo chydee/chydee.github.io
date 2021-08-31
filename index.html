@@ -167,11 +167,12 @@
             }
             
             .btn {
-            display: block;
+            display: flex;
+            justify-content: center;
             border: 2px dashed green;
             padding: 15px;
-            width: calc(100% - 20px);
-            margin: 30px;
+            width: 100%;
+            margin: 10px;
             background-color: white;
             text-align: center;
             cursor: pointer;
@@ -293,7 +294,8 @@
                     ><i class='bx bxl-medium-square' ></i> <span class="home_details">Medium</span></a>
             </li>
         </ul>
-        
-        <button class="btn"><i class='bx bx-cloud-download'></i> <span>Download my resume</span></button>
+        <form action="https://drive.google.com/file/d/183qzxfYJHaDKt71L9p2_nh3mCg0oFf6k/view?usp=drivesdk">
+        <button class="btn"><i class='bx bx-cloud-download' style="margin-right: 10px;"></i> <span> Resume</span></button>
+        </form>
     </body>
 </html>
