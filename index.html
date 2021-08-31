@@ -76,6 +76,8 @@
                 margin: 0;
                 padding: 0;
                 font-weight: 300;
+                box-sizing: border-box;
+
             }
 
             html {
@@ -83,7 +85,7 @@
             }
 
             body {
-                height: 100vh;
+                height: 100%;
                 display: flex;
                 font-size: 1.2em;
                 align-items: center;
@@ -103,6 +105,10 @@
             h2,
             p {
                 margin: 0;
+            }
+            
+            .profile {
+              width: 40%;
             }
             ul {
                 margin: 0;
@@ -174,6 +180,11 @@
                 li {
                     padding: 0.3em;
                 }
+                
+                .profile {
+                   width: 40%;
+                   margin-top:30px;
+                   }
             }
         </style>
         <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -195,10 +206,9 @@
     </head>
 
     <body>
-        <img
+        <img class="profile"
             src="assets/perfil_distort.png"
-            style="width: 400px"
-            alt="Desmond Ngwuta"
+            alt="Photo of Desmond Ngwuta"
         />
         <h1>Desmond Ngwuta</h1>
         <p class="description">Software Engineer</p>
@@ -265,7 +275,7 @@
                     href="https://ngwuta.medium.com/"
                     target="_blank"
                     class="home__social-icon"
-                    ><i class='bx bxl-medium-square' ></i></a>
+                    ><i class='bx bxl-medium-square' ></i> <span class="home_details">Medium</span></a>
             </li>
         </ul>
     </body>
