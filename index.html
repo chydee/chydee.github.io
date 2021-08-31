@@ -138,6 +138,10 @@
                 text-decoration: underline;
             }
 
+            .home_details {
+                display: none;
+            }
+
             .home__social {
                 display: flex;
                 flex-direction: column;
@@ -157,6 +161,12 @@
             }
 
             @media (min-width: 320px) and (max-width: 480px) {
+                .home__social{
+                    display: none;
+                }
+                .home_details{
+                    display: block;
+                }
                 ul {
                     display: block;
                 }
@@ -164,20 +174,6 @@
                 li {
                     padding: 0.3em;
                 }
-            }
-
-            .dropdown-content {
-                display: none;
-                position: absolute;
-                background-color: #f9f9f9;
-                min-width: 160px;
-                box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-                padding: 12px 16px;
-                z-index: 1;
-            }
-
-            .dropdown:hover .dropdown-content {
-                display: block;
             }
         </style>
         <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -214,7 +210,7 @@
                     target="_blank"
                     class="home__social-icon"
                     ><i class="bx bx-mail-send"></i
-                ></a>
+                > <span class="home_details">E-mail</span></a>
             </li>
             <li>
                 <a
@@ -222,7 +218,7 @@
                     target="_blank"
                     class="home__social-icon"
                     ><i class="bx bxl-github"></i
-                ></a>
+                > <span class="home_details">Github</span></a>
             </li>
             <li>
                 <a
@@ -230,7 +226,7 @@
                     target="_blank"
                     class="home__social-icon"
                     ><i class="bx bxl-twitter"></i
-                ></a>
+                > <span class="home_details">Twitter</span></a>
             </li>
             <li>
                 <a
@@ -238,7 +234,7 @@
                     target="_blank"
                     class="home__social-icon"
                     ><i class="bx bxl-linkedin"></i
-                ></a>
+                > <span class="home_details">LinkedIn</span></a>
             </li>
             <li>
                 <a
@@ -246,7 +242,7 @@
                     target="_blank"
                     class="home__social-icon"
                     ><i class="bx bxl-stack-overflow"></i
-                ></a>
+                > <span class="home_details">Stackoverflow</span></a>
             </li>
             <li>
                 <a
@@ -254,7 +250,7 @@
                     target="_blank"
                     class="home__social-icon"
                     ><i class="bx bxl-play-store"></i
-                ></a>
+                > <span class="home_details">Apps Portfolio</span></a>
             </li>
             <li>
                 <a
@@ -262,7 +258,7 @@
                     target="_blank"
                     class="home__social-icon"
                     ><i class="bx bxl-codepen"></i
-                ></a>
+                > <span class="home_details">Codepen</span></a>
             </li>
             <li>
                 <a
