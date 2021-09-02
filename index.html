@@ -148,11 +148,8 @@
             }
             
             .btn {
-            display: flex;
-            justify-content: center;
             border: 2px dashed green;
             padding: 15px;
-            width: 100%;
             margin: 10px;
             background-color: white;
             text-align: center;
@@ -165,6 +162,14 @@
             }
 
             @media (min-width: 320px) and (max-width: 480px) {
+               
+               html, body
+               {
+               height: 100%;
+               display: block;
+               padding: 0;
+               margin: 0;
+               }
                 .home__social{
                     display: none;
                 }
@@ -178,6 +183,21 @@
                 li {
                     padding: 0.3em;
                 }
+                
+                img{
+                   width: 100%;
+                   margin: auto;
+                }
+                
+                 .btn {
+                 border: 2px dashed green;#42445A
+                 padding: 10px;
+                 margin: 10px;
+                 background-color: white;
+                 text-align: center;
+                 cursor: pointer;
+                 }
+                
             }
         </style>
         <!-- Global site tag (gtag.js) - Google Analytics -->
